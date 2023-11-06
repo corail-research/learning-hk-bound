@@ -51,10 +51,6 @@ make
 
 ### 1. Training a model
 
-```shell
-cd ./training
-```
-
 Edit the configuration in training/trainHKgnn, then you can start the training as follows:
 ```shell
 cd ./training
@@ -64,8 +60,8 @@ cd ./training
 ### 2. Solving instances
 
 ```shell
-# For TSPTW
-./test.sh
+cd ../solver
+./run_test.sh
 ```
 
 
